@@ -74,6 +74,8 @@ function App() {
   };
 
   return (
+    <main>
+
     <div className="app">
       {/* Loading Modal */}
       {loading && (
@@ -112,6 +114,11 @@ function App() {
         </div>
       )}
     </div>
+
+    <footer>
+      <p>This website is getting active updates. &copy; Deontae Wills 2025</p>
+    </footer>
+    </main>
   );
 }
 
