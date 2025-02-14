@@ -141,7 +141,7 @@ function App() {
 
       {/* Footer (Because every site needs one) */}
       <footer>
-        <p>Deontae Wills 2025 &copy; This app is currently in active development</p>
+        <p>&copy; Deontae Wills 2025</p>
       </footer>
     </main>
   );
