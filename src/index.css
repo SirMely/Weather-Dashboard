@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1E2E;
+    text-align: center;
+}
+
+.app {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2A2A3A;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.search input {
+    padding: 12px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search button {
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s ease background;
+}
+
+.search button:hover {
+    background-color: #3DDC97;
+    color: white;
+}
+
+.weather-info {
+    margin-top: 20px;
+    color: white;
+}
+
+.weather-info > p {
+    font-size: 42px;
+    margin: 20px;
+}
+
+.weather-info h2 {
+    font-size: 42px;
+}
+
+.weather-info img {
+    width: 100px;
+    height: 100px;
+}
+
+.toggle-btn {
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #FFBF00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s ease background;
+}
+
+.toggle-btn:hover {
+    background: #3DDC97;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Loading modal */
+
+.loading-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    z-index: 1000;
+    /* Ensure it appears above everything */
+}
+
+.loading-modal p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.loading-modal svg {
+    animation: spin 1s linear infinite;
+    /* FontAwesome spinner animation */
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
