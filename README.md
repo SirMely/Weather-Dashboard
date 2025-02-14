@@ -1,8 +1,36 @@
-# React + Vite
+# 🌤️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **simple but clean weather app** that lets you **search for a city and get real-time weather updates**.
 
-Currently, two official plugins are available:
+Built with **React + OpenWeather API**, this project was made to **practice API integration, state management, and clean UI design**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Also I can finally be more vocal while coding!
+
+---
+
+## 📝 Why I Made This?
+I wanted to build something **useful** but also a **solid portfolio project** that shows:
+✅ **Fetching data from an API (OpenWeather)**
+✅ **Using React hooks (`useState`) to manage UI updates**
+✅ **Making the UI look clean & responsive**
+
+---
+
+## 🚀 Features
+✔ **Search for any city** and get instant weather updates  
+✔ **Displays temperature, weather description, and an icon**  
+✔ **Toggle between Fahrenheit (°F) and Celsius (°C)**  
+✔ **Loading animation while fetching data**  
+✔ **Error handling for invalid cities**  
+
+---
+
+## ⚡ Tech Stack
+- **React (Vite)** – Fast & lightweight frontend  
+- **OpenWeather API** – Fetches real-time weather data  
+- **CSS (No Tailwind, just keeping it clean)**  
+- **FontAwesome** – Icons for search & loading animations  
+
+---
+
+© 2025 Deontae Wills
