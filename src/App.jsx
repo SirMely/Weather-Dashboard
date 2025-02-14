@@ -115,9 +115,7 @@ function App() {
       )}
     </div>
 
-    <footer>
-      <p>This website is getting active updates. &copy; Deontae Wills 2025</p>
-    </footer>
+    
     </main>
   );
 }
