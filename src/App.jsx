@@ -115,7 +115,9 @@ function App() {
       )}
     </div>
 
-    
+    <footer>
+        <p>Deontae Wills 2025 &copy; This app is currently in active development</p>
+    </footer>
     </main>
   );
 }
